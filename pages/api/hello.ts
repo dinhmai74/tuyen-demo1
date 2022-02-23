@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from "next";
-import { getData } from "../data";
+import { getData } from "../../utils/data";
 
 export interface Product {
   productName: string;
