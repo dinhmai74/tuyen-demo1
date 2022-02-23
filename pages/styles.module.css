@@ -1,0 +1,4 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(9,minmax(0, 1fr));
+}
